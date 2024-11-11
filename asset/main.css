@@ -731,3 +731,33 @@ header__cart-list:after{
     display: flex;
     align-items: center;
 }
+
+.header__cart-item:hover{
+    background-color: #F8F8F8;
+}
+
+.header__cart-img{
+    width: 42px;
+    height: 42px;
+    margin: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.header__cart-item-info{
+    width: 100%;
+
+}
+
+.header__cart-item-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 12px;
+}
+
+.header__cart-item-name{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0;
+}
