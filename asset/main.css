@@ -667,3 +667,30 @@
     animation: fadeIn ease-in 0.2s;
     cursor: default;
 }
+
+header__cart-list:after{
+    cursor: pointer;
+    content: "";
+    position: absolute;
+    right: 3px;
+    top: -26px;
+    border-width: 16px 20px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+}
+
+.header__cart-no-cart{
+    padding: 28px 0;
+}
+
+.header__cart-no-cart .header__cart-no-cart-img,
+.header__cart-no-cart .header__cart-no-cart-msg{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header__cart-no-cart-img{
+    width: 54%;
+    display: none;
+}
