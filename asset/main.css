@@ -761,3 +761,49 @@ header__cart-list:after{
     color: var(--text-color);
     margin: 0;
 }
+
+header__cart-item-price{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--primary--color);
+}
+
+.header__cart-item-multiply{
+    font-size: 0.9rem;
+    margin: 0 4px;
+    color: #757575;
+}
+
+.header__cart-item-qnt{
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.header__cart-item-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__cart-item-description{
+    font-size: 1.2rem;
+    color: #757575;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.header__cart-item-remove{
+    font-size: 1.2rem;
+    color: #757575;
+    margin-right: 14px;
+    margin-top: 6px;
+}
+
+.header__cart-item-remove:hover{
+    cursor: pointer;
+    color: var(--primary--color);
+}
+
+.header__cart-view-cart{
+    float: right;
+    margin: 0 12px 12px 0;
+}
