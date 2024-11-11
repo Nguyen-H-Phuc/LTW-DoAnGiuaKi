@@ -410,3 +410,41 @@
     color: #666;
     background-color: var(--white-color);
 }
+
+.auth-form__socials-title{
+    margin: 0 16px;
+}
+
+.auth-form__helps{
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+.auth-form__helps-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #939393;
+}
+
+.auth-form__helps-separate{
+    display: block;
+    height: 22px;
+    border-left: 1px solid #EAEAEA;
+    margin: -3px 16px 0;
+}
+
+.auth-form__helps-forgot{
+    color: var(--primary--color);
+}
+
+/*Header with search */
+.header-with-search{
+    height: var(--header-with-search-height);
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    width: 200px;
+}
