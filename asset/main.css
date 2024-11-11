@@ -178,3 +178,39 @@
     display: block;
 
 }
+
+.header__qr-img{
+    width: 100%;
+}
+
+.header__qr-app{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__qr-link:nth-child(1){
+    margin-left: 11px;
+}
+
+.header__qr-link:nth-child(2){
+    margin-right: 11px;
+}
+
+.header__qr-download-img{
+    height: 16px;
+}
+
+/* Header Nnotifycation */
+.header__notify{
+    position: absolute;
+    z-index: 1;
+    top: 118%;
+    right: 0;
+    width: 404px;
+    border: 1px solid #D3D3D3;
+    background-color: var(--white-color);
+    cursor: default;
+    transform-origin: calc(100% - 32px) top;
+    animation: headerNotifyGrowth ease-in 0.2s;
+    display: none;
+}
