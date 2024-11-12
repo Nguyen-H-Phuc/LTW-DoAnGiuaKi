@@ -907,3 +907,51 @@ header__cart-item-price{
     background-color: #d9534f;
     color: #fff;
 }
+
+/*footer*/
+
+.footer{
+    padding-top: 16px;
+    border-top: 4px solid var(--primary--color);
+}
+
+.footer_heading{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.footer-list{
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-item__link{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #737373;
+    padding: 2px 0;
+}
+
+.footer-item__link:hover{
+    color: var(--primary--color);
+}
+
+.footer-item__icon{
+    font-size: 1.8rem;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+
+.footer__download{
+    display: flex;
+}
+
+.footer__download-qr{
+    width: 80px;
+    object-fit: contain;
+}
+
+.footer__download-apps{
+    flex: 1;
+}
