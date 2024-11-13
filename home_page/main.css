@@ -931,6 +931,8 @@ header__cart-item-price{
     text-decoration: none;
     color: #737373;
     padding: 2px 0;
+    line-height: 2.5rem;
+    display: block;
 }
 
 .footer-item__link:hover{
@@ -950,8 +952,34 @@ header__cart-item-price{
 .footer__download-qr{
     width: 80px;
     object-fit: contain;
+    border: 1px var(--border-color);
 }
 
 .footer__download-apps{
     flex: 1;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__download-app-img{
+    height: 16px;
+}
+
+.footer__download-app-link{
+    color: transparent;
+    text-decoration: none;
+}
+
+.footer__bottom{
+    padding: 8px 0;
+    background-color: #F5F5F5;
+    margin-top: 36px;
+}
+
+.footer__text{
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
 }
