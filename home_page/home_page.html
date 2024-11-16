@@ -3,8 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 <body>
+    <div class="header">
+        <div class="grid">
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a class="header__navbar-item-a" href="home_page.html">Trang chủ</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a class="header__navbar-item-a" href="#">Sản phẩm</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a class="header__navbar-item-a" href="#">Dịch vụ</a>
+                    </li>
+
+                    <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                        Tải ứng dụng
+
+                        <!-- Header QR code -->
+                        <div class="header__qr">
+                            <img src="../img/qr_code.png" alt="QR Code" class="header__qr-img">
+                            <div class="header__qr-app">
+                                <a href="" class="header__qr-link">
+                                    <img src="../img/app_store.png" alt="App Store" class="header__qr-download-img">
+                                </a>
+                                <a href="" class="header__qr-link">
+                                    <img src="../img/CH_Play.png" alt="Google Play" class="header__qr-download-img">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="header__navbar-item">
+                        <span class="header__navbar--title-no-pointer">Kết nối</span>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                        </a>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
 </body>
 </html>
